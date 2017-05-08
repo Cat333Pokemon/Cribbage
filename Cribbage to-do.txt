@@ -1,0 +1,38 @@
+More speech synthesis and sound effects; make them play after numbers update
+A peg board would be nice
+CPU, possibly swap hard and medium discards
+CPU, when evaluating hand, consider cards split apart as one point?
+CPU, possibly consider the discard of 5-5 as detrimental to own hand score; perhaps deduct PairValues() from HandScoring(), but scale the values to be more appropriate
+CPU, prioritize 15s over pairs when playing; be more careful with pairs because of the possibility of pair royals (3)
+When cards are put in the crib and PlayByPlay, print out which cards were in the crib; if show-all-cards, include CPU
+Within about 6 of the end, CPU, forget the hand and go for good pegging cards, especially if not the first to score
+Clean up area around printing the score, especially making sure the board is in a presentable state at game end (count play area score first)
+
+
+Difficulty Setting (also update descriptions in Options)
+
+BEGINNER
+Discards 5s and 10s
+Plays to leave 5 or 21, if cannot then plays to leave 10 or 26
+
+EASY
+Discards at complete random
+Plays at complete random
+
+MEDIUM
+Discards to leave maximum hand; after that, best to self or worst to you
+Plays 15s, 31s, and pairs; otherwise random; doesn't lead 5 unless only option
+
+HARD
+Discards...not sure, but probably avoids throwing a fifteen or 5s to your crib; possibly considers being within 15 of end; holds aces
+Plays runs, 15s, 31s, pairs, and avoids setting up 15s and 31s
+
+EXPERT?
+Holds cards that add to eleven; discards cards that add to five
+Plays... ; 1 in 5 chance of playing a card at complete random for lead
+CPU can see YOUR hand
+Good stuff here: http://cribbagecorner.com/strategy
+http://www.dummies.com/games/card-games/cribbage/strategies-for-scoring-in-cribbage/
+
+Discard score tables:
+http://cribbageforum.com/SchellDiscard.htm
