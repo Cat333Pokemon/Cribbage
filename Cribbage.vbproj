@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8C1A7868-8787-4E45-A03C-032D41EBEF2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Cribbage.My.MyApplication</StartupObject>
+    <RootNamespace>Cribbage</RootNamespace>
+    <AssemblyName>Cribbage</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Cribbage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Cribbage.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>15.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.vb" />
+    <Compile Include="Deck.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OptionsDialog.Designer.vb">
+      <DependentUpon>OptionsDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="15.ico" />
+    <None Include="images\b12.gif" />
+    <None Include="images\b11.gif" />
+    <None Include="images\b10.gif" />
+    <None Include="images\b9.gif" />
+    <None Include="images\b8.gif" />
+    <None Include="images\b7.gif" />
+    <None Include="images\b6.gif" />
+    <None Include="images\b5.gif" />
+    <None Include="images\b4.gif" />
+    <None Include="images\b3.gif" />
+    <None Include="images\b2.gif" />
+    <None Include="images\b1.gif" />
+    <None Include="images\b0.gif" />
+    <None Include="images\13s.gif" />
+    <None Include="images\13h.gif" />
+    <None Include="images\13d.gif" />
+    <None Include="images\13c.gif" />
+    <None Include="images\12s.gif" />
+    <None Include="images\12h.gif" />
+    <None Include="images\12d.gif" />
+    <None Include="images\12c.gif" />
+    <None Include="images\11s.gif" />
+    <None Include="images\11h.gif" />
+    <None Include="images\11d.gif" />
+    <None Include="images\11c.gif" />
+    <None Include="images\10s.gif" />
+    <None Include="images\10h.gif" />
+    <None Include="images\10d.gif" />
+    <None Include="images\10c.gif" />
+    <None Include="images\9s.gif" />
+    <None Include="images\9h.gif" />
+    <None Include="images\9d.gif" />
+    <None Include="images\9c.gif" />
+    <None Include="images\8s.gif" />
+    <None Include="images\8h.gif" />
+    <None Include="images\8d.gif" />
+    <None Include="images\8c.gif" />
+    <None Include="images\7s.gif" />
+    <None Include="images\7h.gif" />
+    <None Include="images\7d.gif" />
+    <None Include="images\7c.gif" />
+    <None Include="images\6s.gif" />
+    <None Include="images\6h.gif" />
+    <None Include="images\6d.gif" />
+    <None Include="images\6c.gif" />
+    <None Include="images\5s.gif" />
+    <None Include="images\5h.gif" />
+    <None Include="images\5d.gif" />
+    <None Include="images\5c.gif" />
+    <None Include="images\4s.gif" />
+    <None Include="images\4h.gif" />
+    <None Include="images\4d.gif" />
+    <None Include="images\4c.gif" />
+    <None Include="images\3s.gif" />
+    <None Include="images\3h.gif" />
+    <None Include="images\3d.gif" />
+    <None Include="images\3c.gif" />
+    <None Include="images\2s.gif" />
+    <None Include="images\2h.gif" />
+    <None Include="images\2d.gif" />
+    <None Include="images\2c.gif" />
+    <None Include="images\1s.gif" />
+    <None Include="images\1h.gif" />
+    <None Include="images\1d.gif" />
+    <None Include="images\1c.gif" />
+    <None Include="bin\Debug\cards\1c.gif" />
+    <None Include="bin\Debug\cards\1d.gif" />
+    <None Include="bin\Debug\cards\1h.gif" />
+    <None Include="bin\Debug\cards\1s.gif" />
+    <None Include="bin\Debug\cards\2c.gif" />
+    <None Include="bin\Debug\cards\2d.gif" />
+    <None Include="bin\Debug\cards\2h.gif" />
+    <None Include="bin\Debug\cards\2s.gif" />
+    <None Include="bin\Debug\cards\3c.gif" />
+    <None Include="bin\Debug\cards\3d.gif" />
+    <None Include="bin\Debug\cards\3h.gif" />
+    <None Include="bin\Debug\cards\3s.gif" />
+    <None Include="bin\Debug\cards\4c.gif" />
+    <None Include="bin\Debug\cards\4d.gif" />
+    <None Include="bin\Debug\cards\4h.gif" />
+    <None Include="bin\Debug\cards\4s.gif" />
+    <None Include="bin\Debug\cards\5c.gif" />
+    <None Include="bin\Debug\cards\5d.gif" />
+    <None Include="bin\Debug\cards\5h.gif" />
+    <None Include="bin\Debug\cards\5s.gif" />
+    <None Include="bin\Debug\cards\6c.gif" />
+    <None Include="bin\Debug\cards\6d.gif" />
+    <None Include="bin\Debug\cards\6h.gif" />
+    <None Include="bin\Debug\cards\6s.gif" />
+    <None Include="bin\Debug\cards\7c.gif" />
+    <None Include="bin\Debug\cards\7d.gif" />
+    <None Include="bin\Debug\cards\7h.gif" />
+    <None Include="bin\Debug\cards\7s.gif" />
+    <None Include="bin\Debug\cards\8c.gif" />
+    <None Include="bin\Debug\cards\8d.gif" />
+    <None Include="bin\Debug\cards\8h.gif" />
+    <None Include="bin\Debug\cards\8s.gif" />
+    <None Include="bin\Debug\cards\9c.gif" />
+    <None Include="bin\Debug\cards\9d.gif" />
+    <None Include="bin\Debug\cards\9h.gif" />
+    <None Include="bin\Debug\cards\9s.gif" />
+    <None Include="bin\Debug\cards\10c.gif" />
+    <None Include="bin\Debug\cards\10d.gif" />
+    <None Include="bin\Debug\cards\10h.gif" />
+    <None Include="bin\Debug\cards\10s.gif" />
+    <None Include="bin\Debug\cards\11c.gif" />
+    <None Include="bin\Debug\cards\11d.gif" />
+    <None Include="bin\Debug\cards\11h.gif" />
+    <None Include="bin\Debug\cards\11s.gif" />
+    <None Include="bin\Debug\cards\12c.gif" />
+    <None Include="bin\Debug\cards\12d.gif" />
+    <None Include="bin\Debug\cards\12h.gif" />
+    <None Include="bin\Debug\cards\12s.gif" />
+    <None Include="bin\Debug\cards\13c.gif" />
+    <None Include="bin\Debug\cards\13d.gif" />
+    <None Include="bin\Debug\cards\13h.gif" />
+    <None Include="bin\Debug\cards\13s.gif" />
+    <None Include="bin\Debug\cards\b0.gif" />
+    <None Include="bin\Debug\cards\b1.gif" />
+    <None Include="bin\Debug\cards\b2.gif" />
+    <None Include="bin\Debug\cards\b3.gif" />
+    <None Include="bin\Debug\cards\b4.gif" />
+    <None Include="bin\Debug\cards\b5.gif" />
+    <None Include="bin\Debug\cards\b6.gif" />
+    <None Include="bin\Debug\cards\b7.gif" />
+    <None Include="bin\Debug\cards\b8.gif" />
+    <None Include="bin\Debug\cards\b9.gif" />
+    <None Include="bin\Debug\cards\b10.gif" />
+    <None Include="bin\Debug\cards\b11.gif" />
+    <None Include="bin\Debug\cards\b12.gif" />
+    <None Include="audio\skunk.wav" />
+    <None Include="audio\0.wav" />
+    <None Include="audio\1.wav" />
+    <None Include="audio\2.wav" />
+    <None Include="audio\3.wav" />
+    <None Include="audio\4.wav" />
+    <None Include="audio\5.wav" />
+    <None Include="audio\6.wav" />
+    <None Include="audio\7.wav" />
+    <None Include="audio\8.wav" />
+    <None Include="audio\9.wav" />
+    <None Include="audio\10.wav" />
+    <None Include="audio\11.wav" />
+    <None Include="audio\12.wav" />
+    <None Include="audio\13.wav" />
+    <None Include="audio\14.wav" />
+    <None Include="audio\15.wav" />
+    <None Include="audio\16.wav" />
+    <None Include="audio\17.wav" />
+    <None Include="audio\18.wav" />
+    <None Include="audio\19.wav" />
+    <None Include="audio\20.wav" />
+    <None Include="audio\21.wav" />
+    <None Include="audio\22.wav" />
+    <None Include="audio\23.wav" />
+    <None Include="audio\24.wav" />
+    <None Include="audio\25.wav" />
+    <None Include="audio\26.wav" />
+    <None Include="audio\27.wav" />
+    <None Include="audio\28.wav" />
+    <None Include="audio\29.wav" />
+    <None Include="audio\30.wav" />
+    <None Include="audio\31.wav" />
+    <None Include="audio\15_2.wav" />
+    <None Include="audio\31_2.wav" />
+    <Content Include="cards32.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

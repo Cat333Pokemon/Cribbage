@@ -1,0 +1,409 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Cribbage
+</name>
+</assembly>
+<members>
+<member name="T:Cribbage.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._10c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._10d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._10h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._10s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._11c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._11d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._11h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._11s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._12c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._12d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._12h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._12s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._13c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._13d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._13h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._13s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._1c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._1d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._1h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._1s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._2c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._2d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._2h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._2s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._3c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._3d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._3h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._3s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._4c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._4d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._4h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._4s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._5c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._5d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._5h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._5s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._6c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._6d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._6h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._6s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._7c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._7d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._7h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._7s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._8c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._8d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._8h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._8s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._9c">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._9d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._9h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources._9s">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.b9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Cribbage.My.Resources.Resources.skunk">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="T:Cribbage.CardGameFramework.Suit">
+ <summary>
+ Card suit values
+ </summary>
+</member>
+<member name="T:Cribbage.CardGameFramework.FaceValue">
+ <summary>
+ Card face values
+ </summary>
+</member>
+<member name="M:Cribbage.CardGameFramework.Card.#ctor(Cribbage.CardGameFramework.Suit,Cribbage.CardGameFramework.FaceValue,System.Boolean)">
+ <summary>
+ Constructor for a new card. 
+ </summary>
+ <param name="suitProp"></param>
+ <param name="faceValProp"></param>
+ <param name="isCardUpProp"></param>
+ <remarks>Assign the card a suit, face value, and if the card is facing up or down</remarks>
+</member>
+<member name="M:Cribbage.CardGameFramework.Card.ToString">
+ <summary>
+ Return the card as a string (i.e. "The Ace of Spades")
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Cribbage.CardGameFramework.Deck.#ctor">
+ <summary>
+ One complete deck with every face value and suit
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Cribbage.CardGameFramework.Deck.Draw">
+ <summary>
+ Draws one card and removes it from the deck
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Cribbage.CardGameFramework.Deck.Shuffle">
+ <summary>
+ Shuffles the cards in the deck
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Cribbage.CardGameFramework.Deck.SwapCard(System.Int32,System.Int32)">
+ <summary>
+ Swaps the placement of two cards
+ </summary>
+ <param name="index1"></param>
+ <param name="index2"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
